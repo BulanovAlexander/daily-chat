@@ -1,3 +1,8 @@
+![Превью сайта](https://github.com/BulanovAlexander/daily-chat/blob/main/public/preview.png?raw=true)
+
+[Посмотреть вживую](https://daily-chat.netlify.app)
+
+
 # Daily Chat – Чат на Next.js, Supabase и ShadCN/UI
 
 **Daily Chat** – веб-приложение для общения в реальном времени, созданное на **Next.js**, **Supabase** и **ShadCN/UI**. Поддерживает **авторизацию через GitHub** и обладает стильным интерфейсом.
