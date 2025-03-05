@@ -14,7 +14,7 @@ export default async function Home() {
   return (
     <>
       <div className="mx-auto max-w-3xl h-[100svh] md:py-10">
-        <div className="relative border rounded-md flex flex-col h-full">
+        <div className="relative border rounded-md flex flex-col h-[100svh]">
           <ChatHeader user={data.session?.user} />
           {data.session?.user ? (
             <>
