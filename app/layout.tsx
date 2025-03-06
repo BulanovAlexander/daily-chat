@@ -59,7 +59,6 @@ export default function RootLayout({
           sizes="180x180"
           href="/favicon-180x180.png"
         />
-
         <link
           rel="icon"
           type="image/png"
@@ -87,14 +86,14 @@ export default function RootLayout({
 
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="manifest" href="/manifest.json" />
 
+        <meta name="theme-color" content="#ffffff" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/favicon-144x144.png" />
         <meta name="msapplication-config" content="/browserconfig.xml" />
         <meta name="apple-mobile-web-app-title" content="Daily Chat" />
-
-        <meta name="theme-color" content="#ffffff" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
