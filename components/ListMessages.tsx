@@ -31,7 +31,7 @@ export function ListMessages() {
         "postgres_changes",
         { event: "INSERT", schema: "public", table: "daily_chat_messages" },
         async (payload) => {
-          if (messageIds.includes(payload.new.id)) {
+          if (!messageIds.includes(payload.new.id)) {
             const { data, error } = await supabase
               .from("daily_chat_users")
               .select("*")
